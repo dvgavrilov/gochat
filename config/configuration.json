@@ -1,0 +1,26 @@
+{
+    "DatabaseSettings": {
+      "engine": "postgres",
+      "server": "127.0.0.1",
+      "port": "5432",
+      "user": "dgavrilov",
+      "password": "sa!123456",
+      "database": "go2_webchat"
+    },
+    "WebSocketSettings":{
+      "readBufferSize": 1024,
+      "writeBufferSize": 1024,
+      "port": 8888
+    },
+    "ApplicationSettings": {
+      "DebugMode": "True"
+    },
+    "ChatRoomSettings":{
+      "MaxValueOfChatters": 50,
+      "CacheHistory":"false"
+    },
+    "RedisSettings":{
+      "Address":"127.0.0.1",
+      "Port": 6379
+    }
+  }
