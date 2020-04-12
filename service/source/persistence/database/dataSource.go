@@ -4,12 +4,13 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"leto-yanao-1/service/source/config"
-	"leto-yanao-1/service/source/interfaces"
-	"leto-yanao-1/service/source/persistence/database/rediscache"
-	"leto-yanao-1/service/source/persistence/migrations"
+
 	"strconv"
 
+	"github.com/dvgavrilov/gochat/service/source/config"
+	"github.com/dvgavrilov/gochat/service/source/interfaces"
+	"github.com/dvgavrilov/gochat/service/source/persistence/database/rediscache"
+	"github.com/dvgavrilov/gochat/service/source/persistence/migrations"
 	"github.com/jinzhu/gorm"
 	_ "github.com/lib/pq"
 )

@@ -3,11 +3,12 @@ package messaging
 import (
 	"errors"
 	"fmt"
-	"leto-yanao-1/service/source/models"
-	"leto-yanao-1/service/source/persistence"
+
 	"reflect"
 	"time"
 
+	"github.com/dvgavrilov/gochat/service/source/models"
+	"github.com/dvgavrilov/gochat/service/source/persistence"
 	"github.com/sirupsen/logrus"
 )
 

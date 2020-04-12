@@ -3,12 +3,13 @@ package rediscache
 import (
 	"encoding/json"
 	"fmt"
-	"leto-yanao-1/service/source/config"
-	"leto-yanao-1/service/source/customerrors"
-	"leto-yanao-1/service/source/interfaces"
-	"leto-yanao-1/service/source/models"
+
 	"log"
 
+	"github.com/dvgavrilov/gochat/service/source/config"
+	"github.com/dvgavrilov/gochat/service/source/customerrors"
+	"github.com/dvgavrilov/gochat/service/source/interfaces"
+	"github.com/dvgavrilov/gochat/service/source/models"
 	"github.com/gomodule/redigo/redis"
 	"github.com/sirupsen/logrus"
 )

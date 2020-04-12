@@ -1,8 +1,6 @@
 package database
 
-import (
-	"leto-yanao-1/service/source/models"
-)
+import "github.com/dvgavrilov/gochat/service/source/models"
 
 type messagesDataStore struct {
 	connection *Connection

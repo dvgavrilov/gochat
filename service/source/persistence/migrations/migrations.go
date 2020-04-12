@@ -1,8 +1,7 @@
 package migrations
 
 import (
-	"leto-yanao-1/service/source/models"
-
+	"github.com/dvgavrilov/gochat/service/source/models"
 	"github.com/jinzhu/gorm"
 )
 

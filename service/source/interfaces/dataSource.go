@@ -2,7 +2,8 @@ package interfaces
 
 import (
 	"io"
-	"leto-yanao-1/service/source/models"
+
+	"github.com/dvgavrilov/gochat/service/source/models"
 )
 
 type DataSource interface {

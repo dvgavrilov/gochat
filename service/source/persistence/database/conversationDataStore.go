@@ -1,9 +1,8 @@
 package database
 
 import (
-	"leto-yanao-1/service/source/interfaces"
-	"leto-yanao-1/service/source/models"
-
+	"github.com/dvgavrilov/gochat/service/source/interfaces"
+	"github.com/dvgavrilov/gochat/service/source/models"
 	"github.com/jinzhu/gorm"
 )
 

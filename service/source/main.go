@@ -1,10 +1,11 @@
 package main
 
 import (
-	"leto-yanao-1/service/source/config"
-	"leto-yanao-1/service/source/persistence"
-	"leto-yanao-1/service/source/route"
 	"log"
+
+	"github.com/dvgavrilov/gochat/service/source/config"
+	"github.com/dvgavrilov/gochat/service/source/persistence"
+	"github.com/dvgavrilov/gochat/service/source/route"
 )
 
 func main() {

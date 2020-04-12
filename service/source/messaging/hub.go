@@ -3,8 +3,7 @@ package messaging
 import (
 	"errors"
 	"fmt"
-	"leto-yanao-1/service/source/config"
-	"leto-yanao-1/service/source/customerrors"
+
 	"log"
 	"net"
 	"net/http"
@@ -12,6 +11,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/dvgavrilov/gochat/service/source/config"
+	"github.com/dvgavrilov/gochat/service/source/customerrors"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/jwtauth"
 	"github.com/gorilla/websocket"

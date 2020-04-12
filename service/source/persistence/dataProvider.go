@@ -2,8 +2,9 @@ package persistence
 
 import (
 	"io"
-	"leto-yanao-1/service/source/interfaces"
-	"leto-yanao-1/service/source/persistence/database"
+
+	"github.com/dvgavrilov/gochat/service/source/interfaces"
+	"github.com/dvgavrilov/gochat/service/source/persistence/database"
 )
 
 // var dataSource interfaces.DataSource

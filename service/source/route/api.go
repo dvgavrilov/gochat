@@ -2,13 +2,14 @@ package route
 
 import (
 	"fmt"
-	"leto-yanao-1/service/source/config"
-	"leto-yanao-1/service/source/logs"
-	"leto-yanao-1/service/source/messaging"
+
 	"log"
 	"net/http"
 	"strconv"
 
+	"github.com/dvgavrilov/gochat/service/source/config"
+	"github.com/dvgavrilov/gochat/service/source/logs"
+	"github.com/dvgavrilov/gochat/service/source/messaging"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/render"
